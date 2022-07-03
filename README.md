@@ -1,4 +1,4 @@
-# My Portfolio Website!
+# My Portfolio Website! (STATUS: UNDER DEVELOPMENT)
 
 This is the repository containing all the code of my portfolio website.
 
