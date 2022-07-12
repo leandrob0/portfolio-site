@@ -1,6 +1,12 @@
+import './about.css';
+
 function About() {
   return (
-    <div className="homepage">About</div>
+    <div className="about-page">
+        <section className="text-about">
+            
+        </section>
+    </div>
   )
 }
 

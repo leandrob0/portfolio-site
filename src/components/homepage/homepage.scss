@@ -1,6 +1,15 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     overflow-x: hidden;
+    overflow-y: overlay;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #002136;
 }
 
 .homepage {
@@ -23,7 +32,6 @@ body {
 }
 
 .waves-svg {
-    width: 100vw;
     position: absolute;
     bottom:0;
 }
