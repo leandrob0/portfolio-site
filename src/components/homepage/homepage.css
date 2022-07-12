@@ -16,6 +16,11 @@ body {
 }
 
 .avatar-img {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
+}
+
+.waves-svg {
+  position: absolute;
+  bottom: 0;
 }/*# sourceMappingURL=homepage.css.map */
