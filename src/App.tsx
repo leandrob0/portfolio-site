@@ -1,10 +1,11 @@
-import Navbar from "./components/Navbar/Navbar"
 import 'normalize.css';
+
+import Homepage from './components/homepage/Homepage';
 
 function App() {
   return (
     <>
-      <Navbar />
+      <Homepage />
     </>
   )
 }
