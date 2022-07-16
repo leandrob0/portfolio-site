@@ -11,8 +11,9 @@
     background-color: $blueColor;
 
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .text-about {
@@ -22,7 +23,7 @@
 }
 
 .text-about > p {
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.6;
     font-size: 0.9rem;
 }
