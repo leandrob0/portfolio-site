@@ -1,3 +1,4 @@
+import Tools from "../tools/Tools";
 import "./about.css";
 
 function About() {
@@ -13,6 +14,7 @@ function About() {
           </p>
         </div>
         <h4>Tools i use</h4>
+        <Tools />
       </section>
     </div>
   );
