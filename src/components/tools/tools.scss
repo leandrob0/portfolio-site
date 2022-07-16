@@ -2,10 +2,30 @@
 
 .col {
     background-color: white;
+    border-right: 0.5px solid rgb(219, 219, 219);
+    border-left: 0.5px solid rgb(219, 219, 219);
+    border-bottom: 0.5px solid rgb(219, 219, 219);
+    box-shadow: 0 0 2px 0 rgb(233 240 243);
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .icon-color {
     color: $blueColor;
     width: 40px;
     height: 40px;
+}
+
+h5 {
+    font-size: 1.3rem;
+
+    margin: 0;
+    padding: 20px;
+}
+
+.black-text {
+    color: black;
 }

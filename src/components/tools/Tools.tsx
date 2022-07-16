@@ -6,7 +6,7 @@ import { faCode } from '@fortawesome/free-solid-svg-icons';
 function Tools() {
   return (
     <section>
-        <Single icon={faCode}/>
+        <Single icon={faCode} title="Front-end Development" tools={['hola']}/>
     </section>
   )
 }
