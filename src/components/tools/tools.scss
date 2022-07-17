@@ -15,8 +15,11 @@
 
 .icon-color {
     color: $blueColor;
-    width: 40px;
-    height: 40px;
+
+    width: 50px;
+    height: 50px;
+
+    margin-top: 20px;
 }
 
 h5 {
@@ -28,4 +31,12 @@ h5 {
 
 .black-text {
     color: black;
+}
+
+.sm-text {
+    font-size: 0.9rem;
+}
+
+.subtitle-col {
+    color: $blueColor;
 }

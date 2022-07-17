@@ -7,12 +7,12 @@ function Tools() {
   const toolsFront = [
     "HTML",
     "CSS",
+    "Sass",
+    "Tailwind",
     "JavaScript",
     "TypeScript",
     "React",
     "Redux Toolkit",
-    "Tailwind",
-    "Sass",
   ];
 
   return (

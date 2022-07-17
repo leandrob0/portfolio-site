@@ -12,9 +12,10 @@ function Single({ icon, title, tools }: propTools) {
     <article className="col">
       <FontAwesomeIcon icon={icon} className="icon-color" />
       <h5 className="black-text">{title}</h5>
+      <p className="subtitle-col">Languages and tools:</p>
       <section>
         {tools.map((tool) => (
-          <p className="black-text" key={tool}>{tool}</p>
+          <p className="black-text sm-text" key={tool}>- {tool}</p>
         ))}
       </section>
     </article>
