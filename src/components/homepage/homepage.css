@@ -20,8 +20,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-
-.homepage > h2 {
+.homepage h2 {
   font-weight: 400;
   font-size: 1.2rem;
 }
