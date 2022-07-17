@@ -1,13 +1,13 @@
 import { IconDefinition } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-interface props {
+interface propTools {
     icon: IconDefinition;
     title: string;
     tools: Array<string>;
 }
 
-function Single({icon, title, tools}: props) {
+function Single({icon, title, tools}: propTools) {
   return (
     <article className="col">
         <FontAwesomeIcon icon={icon} className="icon-color"/>
