@@ -1,5 +1,18 @@
 @import '../../variables/variables.scss';
 
+.tools-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    z-index: 3;
+    margin-top: -12rem;
+
+    @media  (max-width: 450px) {
+        margin-top: -8rem;
+    }
+}
+
 .col {
     background-color: white;
     border-right: 0.5px solid rgb(219, 219, 219);
@@ -50,10 +63,4 @@ h5 {
 
 .subtitle-col {
     color: $blueColor;
-}
-
-.tools-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
