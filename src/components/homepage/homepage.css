@@ -24,10 +24,19 @@ body {
   font-weight: 400;
   font-size: 1.2rem;
 }
+.homepage * {
+  text-align: center;
+}
 
 .avatar-img {
   width: 350px;
   height: 350px;
+}
+@media (max-width: 600px) {
+  .avatar-img {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 .waves-svg {

@@ -25,11 +25,20 @@ body {
         font-weight: 400;
         font-size: 1.2rem;
     }
+
+    * {
+        text-align: center;
+    }
 }
 
 .avatar-img {
     width: 350px;
     height: 350px;
+
+    @media (max-width: 600px) {
+        width: 200px;
+        height: 200px;
+    }
 }
 
 .waves-svg {
