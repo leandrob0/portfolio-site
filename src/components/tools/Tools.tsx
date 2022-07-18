@@ -1,7 +1,7 @@
 import "./tools.css";
 
 import Single from "./Single";
-import { faCode } from "@fortawesome/free-solid-svg-icons";
+import { faCode, faWrench } from "@fortawesome/free-solid-svg-icons";
 
 function Tools() {
   const toolsFront = [
@@ -14,10 +14,20 @@ function Tools() {
     "React",
     "Redux Toolkit",
   ];
+  const toolsOther = [
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "C",
+    "Java",
+    "Github",
+    "Linux",
+  ]
 
   return (
-    <section>
+    <section className="tools-container">
       <Single icon={faCode} title="Front-end Development" tools={toolsFront} />
+      <Single icon={faWrench} title="Other tools" tools={toolsOther} />
     </section>
   );
 }

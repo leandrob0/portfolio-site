@@ -13,7 +13,6 @@ function About() {
             curious person, perseverance is one of my greatest strengths.
           </p>
         </div>
-        <h4>Tools i use</h4>
         <Tools />
       </section>
     </div>
