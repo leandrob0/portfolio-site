@@ -2,7 +2,10 @@ import './projects.css';
 
 function Projects() {
   return (
-    <div>Projects</div>
+    <section className='projects-section'>
+        <h4>My Projects</h4>
+        <p className='projects-subtitle'>Here are some of my most recent/best projects!</p>
+    </section>
   )
 }
 
