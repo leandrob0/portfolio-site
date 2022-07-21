@@ -1,12 +1,44 @@
+@import "../../variables/variables.scss";
+
 .projects-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 
-    margin-top: 100px;
+    margin: 100px 25px 100px 25px;
 }
 
 .projects-subtitle {
     font-weight: 300;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+
+    margin-top: 40px;
+}
+
+.card {
+    position: relative;
+    border-radius: 5px;
+
+    .image {
+        width: 305px;
+        height: 205px;
+
+        border-radius: 5px;
+    }
+
+    .text-hover {
+        position: absolute;
+        inset: 0;
+
+        border-radius: 5px;
+        background-color: $darkerBlue;
+
+    }
 }
