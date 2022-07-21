@@ -40,5 +40,11 @@
         border-radius: 5px;
         background-color: $darkerBlue;
 
+        opacity: 0;
+        transition: 0.25s ease-in;
+    }
+
+    &:hover > .text-hover {
+        opacity: 1;
     }
 }
