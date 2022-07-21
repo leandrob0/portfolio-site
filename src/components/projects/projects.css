@@ -16,6 +16,7 @@
   flex-wrap: wrap;
   gap: 40px;
   margin-top: 40px;
+  max-width: 1280px;
 }
 
 .card {
@@ -28,12 +29,21 @@
   border-radius: 5px;
 }
 .card .text-hover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   inset: 0;
   border-radius: 5px;
   background-color: #002136;
+  color: white;
+  padding: 10px;
   opacity: 0;
   transition: 0.25s ease-in;
+}
+.card .text-hover .description {
+  font-size: 0.8rem;
 }
 .card:hover > .text-hover {
   opacity: 1;
