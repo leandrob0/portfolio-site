@@ -1,5 +1,4 @@
 import Card from "./Card";
-import Odinbook from "../../images/odinbook-img.png";
 import projects from "../../utils/projects";
 
 import "./projects.css";
@@ -12,12 +11,15 @@ function Projects() {
         Here are some of my most recent/best projects!
       </p>
       <div className="projects-container">
-        <Card
-          src={Odinbook}
-          title={projects[0].title}
-          description={projects[0].description}
-          to={projects[0].to}
-        />
+        {projects.map((project) => (
+          <Card
+            key={project.title}
+            src={project.image}
+            title={project.title}
+            description={project.description}
+            to={project.to}
+          />
+        ))}
       </div>
     </section>
   );
