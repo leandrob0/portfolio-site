@@ -2,11 +2,12 @@ import "./button.css"
 
 interface buttonProps {
   text: string;
+  to: string;
 }
 
-function Button({ text }: buttonProps) {
+function Button({ text, to }: buttonProps) {
   return (
-    <a className="button-cards">
+    <a className="button-cards" href={to} rel="noopener" target="_blank">
         {text}
     </a>
   );

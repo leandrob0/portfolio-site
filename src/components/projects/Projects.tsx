@@ -4,6 +4,18 @@ import Odinbook from "../../images/odinbook-img.png";
 import "./projects.css";
 
 function Projects() {
+  const projects = [
+    {
+      title: "Odinbook",
+      description:
+        "Facebook 'Clon' made as a final project for TheOdinProject.com",
+      to: {
+        git: "https://github.com/leandrob0/odinbook-app",
+        deploy: "https://odinbook-top.herokuapp.com/",
+      },
+    },
+  ];
+
   return (
     <section className="projects-section">
       <h4>My Projects</h4>
@@ -15,26 +27,7 @@ function Projects() {
           src={Odinbook}
           title="Odinbook"
           description="Facebook 'Clon' made as a final project for TheOdinProject.com"
-        />
-        <Card
-          src={Odinbook}
-          title="Odinbook"
-          description="Facebook 'Clon' made as a final project for TheOdinProject.com"
-        />
-        <Card
-          src={Odinbook}
-          title="Odinbook"
-          description="Facebook 'Clon' made as a final project for TheOdinProject.com"
-        />
-        <Card
-          src={Odinbook}
-          title="Odinbook"
-          description="Facebook 'Clon' made as a final project for TheOdinProject.com"
-        />
-        <Card
-          src={Odinbook}
-          title="Odinbook"
-          description="Facebook 'Clon' made as a final project for TheOdinProject.com"
+          to={projects[0].to}
         />
       </div>
     </section>
