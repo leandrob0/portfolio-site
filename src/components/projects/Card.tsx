@@ -1,3 +1,5 @@
+import Button from "../button/Button";
+
 interface cardProps {
   src: string;
   title: string;
@@ -11,6 +13,10 @@ function Card({ src, title, description }: cardProps) {
       <div className="text-hover">
         <p>{title}</p>
         <p className="description">{description}</p>
+        <section>
+          <Button text="Know more!" />
+          <Button text="Live page" />
+        </section>
       </div>
     </article>
   );
